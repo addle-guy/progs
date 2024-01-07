@@ -20,9 +20,9 @@ int main(int argc, char **argv) {
 		
 		if (*bg % 2 == 0) {
 			printf("Biggest number is even.\n");
-			printf("Biggest number: %d", bgi);
+			printf("Biggest number: %d\n", bgi);
 			float result = (double)abs(*bg) / (abs(a1) + abs(a2) + abs(a3)) * 100;
-			printf("Result is: %.2f%%", result);
+			printf("Result is: %.2f%%\n", result);
 			fprintf(logf, "a1 = %d a2 = %d a3 = %d res = %.2f\n", a1, a2, a3, result);
 
 		} else {
